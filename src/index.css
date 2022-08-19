@@ -569,6 +569,12 @@ h1.arrow {
   list-style-type: none;
 }
 
+.tags-body{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 
 
 

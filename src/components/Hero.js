@@ -4,7 +4,7 @@ export default function Hero(){
         <section id="hero" className="d-flex flex-column justify-content-center">
             <div className="container" data-aos="zoom-in" data-aos-delay="100">
                 <h1>Abzed Mohammed</h1>
-                <p>I'm a <span className="typed" data-typed-items="Soffware Engineer, Cloud Developer, Technical Instructor, Technical Writer">
+                <p>I'm a <span className="typed">
                 
                 </span></p>
                 <div className="social-links">
