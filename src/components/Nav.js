@@ -18,7 +18,7 @@ export default function Nav() {
                     <li><NavLink to="/about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></NavLink></li>
                     <li><NavLink to="/resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Resume</span></NavLink></li>
                     <li><NavLink to="/articles" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Articles</span></NavLink></li>
-                    <li><NavLink to="/web-applications" className="nav-link scrollto"><i className="bx bx-server"></i> <span>Web Development</span></NavLink></li>
+                    <li><NavLink to="/web-applications" className="nav-link scrollto"><i className="bx bx-code"></i> <span>Web Development</span></NavLink></li>
                     <li><NavLink to="/contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>Contact</span></NavLink></li>
                 </ul>
             </nav>

@@ -10,7 +10,7 @@ export default function Contact(){
                 <div className="col-md-4">
                     <div className="dark-box box-hover mt-2">
                     <h2><i className="bx bx-map"></i><span className="text-muted">Address</span></h2>
-                    <p>Lucky Summer, Nairobi</p>
+                    <p>Nairobi, Kenya</p>
                     </div>
                 </div>
                 <div className="col-md-4">
@@ -30,7 +30,7 @@ export default function Contact(){
                 <div className="row">
                 <div className="col-lg-4 mt-5">
                 <iframe title="Abzed's Location"
-                src="https://maps.google.com/maps?q=Lucky+Summer+Police+Post&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=Nairobi+nairobit&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 className="h-100 w-100" style={{border:"0"}} allowFullScreen="" loading="lazy"></iframe>
                 </div>
 
