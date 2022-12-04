@@ -1,4 +1,7 @@
+import LazyLoad from "react-lazy-load";
+
 export default function Card(props){
+    console.log(props);
     return(
         <>
         <a target="_blank" rel="noreferrer" href={props.url}>
@@ -11,15 +14,25 @@ export default function Card(props){
                     <p>{props.description}</p>
                     <div className="card-action">
                         <div className="name-container">
-                            <img src="https://res.cloudinary.com/abzed/image/upload/v1658123480/azagfvxpgtszyuqafdr0.jpg" className="avatar" alt="card-user-avatar" />
+                            <LazyLoad>
+                            <img 
+                            src="https://res.cloudinary.com/abzed/image/upload/v1658123480/azagfvxpgtszyuqafdr0.jpg" 
+                            className="avatar" alt="card-user-avatar" />
+                            </LazyLoad>
                             <div className="name-box">
                                 <span>Abzed Mohammed</span>
-                                <small>18 Aug</small>
+                                <small>{props.date ? props.date : "2022"}</small>
                             </div>
                         </div>
                         <ul className="tags-body">
-                            <li className="tags btn-info mt-1">React</li>
-                            <li className="tags btn-info mt-1">Cloudinary</li>
+                            {
+                                props.tags ? 
+                                props.tags.map(tag => {
+                                    return <li>{tag}</li>
+                                })
+                                :
+                                "Article"
+                            }
                         </ul>                    
                     </div>
                 </div>

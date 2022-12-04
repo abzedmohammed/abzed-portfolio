@@ -1,4 +1,32 @@
+import { useEffect } from "react"
+import AOS from "aos"
+import Typed from 'typed.js';
+
 export default function Hero(){
+
+    useEffect(() => {
+        AOS.init({
+      
+            // duration: 1000,
+            easing: 'ease-in-out',
+            // once: true,
+            // mirror: false
+          })
+    
+        AOS.refresh();
+    
+        const typed = document.querySelector('.typed')
+        let typed_strings = "Software Engineer, Cloud Developer, Technical Instructor, Technical Writer, Freelancer"
+        typed_strings = typed_strings.split(',')
+        new Typed('.typed', {
+          strings: typed_strings,
+          loop: true,
+          typeSpeed: 200,
+          backSpeed: 200,
+          backDelay: 1200
+        });    
+    }, [])
+    
     return(
         <>
         <section id="hero" className="d-flex flex-column justify-content-center">

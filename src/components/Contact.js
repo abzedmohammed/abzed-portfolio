@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+import LazyLoad from 'react-lazy-load';
 
 export default function Contact(){
     return(
@@ -29,9 +30,11 @@ export default function Contact(){
 
                 <div className="row">
                 <div className="col-lg-4 mt-5">
+                <LazyLoad height={300}>
                 <iframe title="Abzed's Location"
                 src="https://maps.google.com/maps?q=Nairobi+nairobit&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 className="h-100 w-100" style={{border:"0"}} allowFullScreen="" loading="lazy"></iframe>
+                </LazyLoad>
                 </div>
 
                     <div className="col-lg-8 mt-5">
