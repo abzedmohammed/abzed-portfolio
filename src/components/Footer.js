@@ -11,7 +11,7 @@ export default function Footer(){
                     <a target="_blank" rel="noreferrer" href="https://dev.to/abzed" className="dev"><i className="bx bxl-dev-to"></i></a>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/abzed-mohammed-630bb181/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                 </div>
-                <center><span className="footer-text">Copyright ©2022 All rights reserved | Abzed Abdul Mohammmed</span></center>
+                <center><span className="footer-text">Copyright ©2022/2023 All rights reserved | Abzed Abdul Mohammmed</span></center>
             </div>
         </>
     )

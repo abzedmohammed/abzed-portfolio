@@ -1,11 +1,17 @@
 import { useState } from "react"
-import { NavLink } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 
 export default function Nav() {
     const [listView, setListView] = useState(false)
+    const navigate = useNavigate()
 
     function handleListView(){
         setListView(listView => !listView)
+    }
+
+    function showHomePage(){
+        navigate("/")
+        window.location.reload()
     }
     
     return(
@@ -14,7 +20,7 @@ export default function Nav() {
         <header id="header" className={listView ? "d-flex flex-column justify-content-center header-show" : "d-flex flex-column justify-content-center"}>
             <nav id="navbar" className="navbar nav-menu">
                 <ul>
-                    <li><NavLink to="/" className="nav-link scrollto"><i className="bx bx-home"></i> <span>Home</span></NavLink></li>
+                    <li><a onClick={showHomePage} className="nav-link scrollto"><i className="bx bx-home"></i> <span>Home</span></a></li>
                     <li><NavLink to="/about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></NavLink></li>
                     <li><NavLink to="/resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Resume</span></NavLink></li>
                     <li><NavLink to="/articles" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Articles</span></NavLink></li>

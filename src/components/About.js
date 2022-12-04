@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function About(){
     return(
         <>
@@ -12,7 +14,7 @@ export default function About(){
                                 I like to make you happy. And see you happy. And dream you happy. And wake you happy. And live you happy.
                                 And leave you happy. 
                                    </p>
-                            <button type="button" className="btn btn-outline-light mt-3">Download CV</button>
+                            <Link to="/resume" className="btn btn-outline-light mt-3">Resume</Link>
                             </div>
                             <div className="col-1 col-md-offset-2 wp1"></div>
 

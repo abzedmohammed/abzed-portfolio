@@ -2,9 +2,10 @@ export default function Hero(){
     return(
         <>
         <section id="hero" className="d-flex flex-column justify-content-center">
-            <div className="container" data-aos="zoom-in" data-aos-delay="100">
+            <div className="container" data-aos="fade-up" data-aos-delay="700">
+            <h1 className="hello">Hello, I'm</h1>
                 <h1>Abzed Mohammed</h1>
-                <p>I'm a <span className="typed">
+                <p>a <span className="typed">
                 
                 </span></p>
                 <div className="social-links">
