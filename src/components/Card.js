@@ -1,7 +1,17 @@
 import LazyLoad from "react-lazy-load";
 
 export default function Card(props){
-    console.log(props);
+
+    function capitalizeWord(words){
+        let nonSymbolWords = words.replace(/[^a-zA-Z ]/g, "")
+        let wordArray = nonSymbolWords.split(" ")
+
+        for (var i = 0; i < wordArray.length; i++) {
+            wordArray[i] = wordArray[i].charAt(0).toUpperCase() + wordArray[i].slice(1);
+        }
+        return wordArray.join(" ");
+    }
+
     return(
         <>
         <a target="_blank" rel="noreferrer" href={props.url}>
@@ -25,13 +35,11 @@ export default function Card(props){
                             </div>
                         </div>
                         <ul className="tags-body">
-                            {
+                        {
                                 props.tags ? 
-                                props.tags.map(tag => {
-                                    return <li>{tag}</li>
-                                })
+                                capitalizeWord(props.tags)
                                 :
-                                "Article"
+                                "Tags unavailable"
                             }
                         </ul>                    
                     </div>

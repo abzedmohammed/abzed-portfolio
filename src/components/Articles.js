@@ -13,7 +13,7 @@ export default function Articles({articles}) {
                    {
                     articles.map(article => {
                         return <Card key={article.id} title={article.title} picture={article.social_image}
-                        description={article.description} language={article.language} url={article.url} />
+                        description={article.description} tags={article.tags} url={article.url} />
                     })
                    }                    
                    </div> 

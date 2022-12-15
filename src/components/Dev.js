@@ -13,7 +13,7 @@ export default function Dev({projects}) {
                 {
                     projects.map(project => {
                     return <Card key={project.id} title={project.title} picture={project.picture}
-                    description={project.description} language={project.language} />
+                    description={project.description} tags={project.tags} url={project.url} />
                 })
                } 
             </div> 

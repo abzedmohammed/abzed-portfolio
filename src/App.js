@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
 
     const article_url = 'https://dev.to/api/articles?username=abzed'
-    const project_url = 'http://localhost:3000/projects'
+    const project_url = 'https://portfolio-api-kn7h.onrender.com/projects'
 
     fetch(article_url).then(res => res.json())
       .then(data => setArticles(data))
