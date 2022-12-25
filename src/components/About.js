@@ -11,8 +11,13 @@ export default function About(){
                             <div className="col-10 col-md-offset-2 wp1 my-5">
                                 <h1 className="arrow">A little <span>about</span> me</h1>
                                 <p>
-                                I like to make you happy. And see you happy. And dream you happy. And wake you happy. And live you happy.
-                                And leave you happy. 
+                                I am a Software Engineer with 2+ years of experience developing
+                                awesome web applications. I primarily tend to lean towards using
+                                Django and React for my web applications and I enjoy coding all the
+                                time. Am also a passionate technical instructor and writer with the aim
+                                of supporting the next generation of techies. Moreover, I've worked as
+                                a team lead in various projects, am a team player and a fast learner
+                                very flexible to work as a frontend or backend developer.
                                    </p>
                             <Link to="/resume" className="btn btn-outline-light mt-3">Resume</Link>
                             </div>
@@ -31,23 +36,21 @@ export default function About(){
                     <div className="tools">
                     <h4 className="skill-header">AWS</h4>
                     <div className="side-line">
-                        <p className="skill-name">Cloudinary</p>
+                        <p className="skill-name">Serverless</p>
                     </div>
                     <div className="side-line">
-                        <p className="skill-name">BS4(Scrapping)</p>
+                        <p className="skill-name">Docker</p>
                     </div>
                     <div className="side-line">
-                        <p className="skill-name">Contentful</p>
+                        <p className="skill-name">Kubernetes</p>
                     </div>
                     <div className="side-line">
-                        <p className="skill-name">Github</p>
-                    </div>
-                    <div className="side-line">
-                        <p className="skill-name">GitLab</p>
+                        <p className="skill-name">S3 Buckets</p>
                     </div>
                     <div className="side-line pb-0">
-                        <p className="skill-name">API</p>
+                        <p className="skill-name">Lambda</p>
                     </div>
+   
                    </div>
 
                        <div className="javascript">
@@ -84,7 +87,7 @@ export default function About(){
                         <div className="ruby">
                         <h4 className="skill-header">Ruby</h4>
                         <div className="side-line pb-0">
-                            <p className="skill-name">Rails</p>
+                            <p className="skill-name">Ruby on Rails</p>
                         </div>
                        </div>
                        </div>
@@ -113,13 +116,19 @@ export default function About(){
                         <div className="side-line">
                             <p className="skill-name">Vercel</p>
                         </div>
+                        <div className="side-line">
+                            <p className="skill-name">Render</p>
+                        </div>
                         <div className="side-line pb-0">
-                            <p className="skill-name">GH-Pages</p>
+                            <p className="skill-name">Github</p>
                         </div>
                        </div>
 
                        <div className="databases">
                         <h4 className="skill-header">PostgreSQL</h4>
+                        <div className="side-line">
+                            <p className="skill-name">DynamoDB</p>
+                        </div>
                         <div className="side-line">
                             <p className="skill-name">SQLite</p>
                         </div>
