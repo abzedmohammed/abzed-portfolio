@@ -29,14 +29,11 @@ export default function Hero(){
             <div className="container">
             <h1 className="hello">Hello, I'm</h1>
                 <h1>Abzed Mohammed</h1>
-                <p>a <span className="typed">
-                <TextTransition springConfig={presets.slow}>
-                {TEXTS[index % TEXTS.length]}
-            </TextTransition>
+                <p><span style={{fontWeight: 'bold'}} className="typed"><TextTransition springConfig={presets.slow}>{TEXTS[index % TEXTS.length]}</TextTransition>
                 </span></p>
                 <div className="social-links">
                     <a target="_blank" rel="noreferrer" href="https://twitter.com/AbzedMohammed" className="twitter"><i className="bx bxl-twitter"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://facebook.com/abzed.tetz" className="facebook"><i className="bx bxl-facebook"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://stackoverflow.com/users/13954336/abzed-ibra" className="facebook"><i style={{fontWeight: 'bold'}} className='bx bxl-stack-overflow'></i></a>
                     <a target="_blank" rel="noreferrer" href="https://github.com/abzedmohammed" className="github"><i className="bx bxl-github"></i></a>
                     {/* <a target="_blank" rel="noreferrer" href="https://wa.me/254759507042?text=Hello" className="whatsapp"><i className="bx bxl-whatsapp"></i></a> */}
                     <a target="_blank" rel="noreferrer" href="https://t.me/+254759507042" className="telegram"><i className="bx bxl-telegram"></i></a>

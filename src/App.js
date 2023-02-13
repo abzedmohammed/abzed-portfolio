@@ -7,21 +7,22 @@ import Contact from './components/Contact';
 import { useEffect, useState } from "react";
 import Articles from './components/Articles';
 import Dev from './components/Dev';
+import projectData from './data/data';
+
 
 function App() {
   const [articles, setArticles] = useState([])
-  const [projects, setProjects] = useState([])
+  const [projects, setProjects] = useState([projectData])
 
   useEffect(() => {
 
+    setProjects(projectData)
+
     const article_url = 'https://dev.to/api/articles?username=abzed'
-    const project_url = 'https://portfolio-api-kn7h.onrender.com/projects'
+    // const project_url = 'https://portfolio-api-kn7h.onrender.com/projects'
 
     fetch(article_url).then(res => res.json())
       .then(data => setArticles(data))
-    
-    fetch(project_url).then(res => res.json())
-      .then(data => setProjects(data))
 
 }, [])
 

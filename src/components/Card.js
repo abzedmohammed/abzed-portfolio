@@ -37,9 +37,11 @@ export default function Card(props){
                         <ul className="tags-body">
                         {
                                 props.tags ? 
-                                capitalizeWord(props.tags)
+                                props.tags.map(tag => {
+                                    return <li key={tag}>{tag}</li>
+                                })
                                 :
-                                "Tags unavailable"
+                                null
                             }
                         </ul>                    
                     </div>
