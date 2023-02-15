@@ -59,7 +59,7 @@ const projectData = [
         description: "This is a project rating app which allows users to post projects they have previously worked on to be rated by other developers, peers and friends alike. A user can also follow or unfollow other users. Users can also access contact info of users on their profile page and see there contact information",
         picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1676491382/awards/awards_i9fzos.png",
         date: "10/2020",
-        tags: ["Django", "HTML5", "Django-rest-framework", "Python3", "JavaScript", "JQquey", "docker", "kubernetes", "AWS-RDS"],
+        tags: ["Django", "HTML5", "Django-rest-framework", "Python3", "JavaScript", "JQquey", "Docker", "Kubernetes", "AWS-RDS"],
         url: "http://35.186.214.228"
     }
     // {
