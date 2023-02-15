@@ -14,7 +14,7 @@ export default function Dev({projects}) {
                     projects.length ?
                     projects.map(project => {
                     return <Card key={project.id} title={project.title} picture={project.picture}
-                    description={project.description} tags={project.tags} url={project.url} />
+                    description={project.description} tags={project.tags} date={project.date} url={project.url} />
                 })
                 :
                 <div>

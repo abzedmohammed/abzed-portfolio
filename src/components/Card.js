@@ -2,6 +2,8 @@ import LazyLoad from "react-lazy-load";
 
 export default function Card(props){
 
+    console.log(props);
+
     function capitalizeWord(words){
         let nonSymbolWords = words.replace(/[^a-zA-Z ]/g, "")
         let wordArray = nonSymbolWords.split(" ")

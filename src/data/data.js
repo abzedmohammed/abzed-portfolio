@@ -5,7 +5,7 @@ const projectData = [
         description: "Search for building products and finishes across Kenya.",
         picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1676483431/buildsoko/soko_h6kclx.png",
         date: "11/2021",
-        tags: ["Django", "MdBootstrap", "J-Query", "Docker", "Kubernetese"],
+        tags: ["Django", "MdBootstrap","JavaScript", "JQuery", "Cloudinary", "Docker", "Kubernetese", "AWS-RDS"],
         url: "http://34.117.67.249"
     },
     {
@@ -32,7 +32,7 @@ const projectData = [
         description: "Nairobians are suffering from lack of accommodations and hotels. Nairobnb is an app for booking a place to sleep and enjoy cutting edge technology while feeling right at home.",
         picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1671102088/nairobnb/bnb_zejrkw.png",
         date: "10/2022",
-        tags: ["React", "Redux-Toolkit", "Rails", "Bootstrap"],
+        tags: ["React", "Redux-Toolkit", "Ruby", "Rails", "Bootstrap", "AWS-RDS"],
         url: "https://nairobnb.vercel.app/"
     },
     {
@@ -41,7 +41,7 @@ const projectData = [
         description: "This is a food ordering system that allows users to order snacks and manage their orders.",
         picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1675674539/tetish-inn/tetish-inn_wv7njc.png",
         date: "02/2023",
-        tags: ["React", "ReduxToolkit", "Tailwind", "Rails", "Cloudinary", "Kubernetese", "awsAmplify", "awsBucket", "awsRDS"],
+        tags: ["React", "Redux-Toolkit", "Tailwind", "Ruby", "Rails", "Cloudinary", "Kubernetese", "AWS-Amplify", "AWS-Bucket", "AWS-RDS"],
         url: "http://tetish-inn.s3-website-us-east-1.amazonaws.com/snacks"
     },
     {
@@ -50,8 +50,17 @@ const projectData = [
         description: "This is a social media app which requires a user to post images with captions, comment on other images or like. A user can also follow or unfollow other users and see their posts on his timeline. The user can also see his images on his profile page and their stats.",
         picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1676481235/instaclone/instaclone_zsoujy.png",
         date: "10/2020",
-        tags: ["Django", "HTML5", "Cloudinary", "Mdbootstrap", "Python", "Docker", "Kubernetes"],
+        tags: ["Django", "HTML5", "Cloudinary", "Mdbootstrap", "Python3", "Docker", "Kubernetes", "AWS-RDS"],
         url: "http://35.190.7.181"
+    },
+    {
+        id: 7,
+        title: "Awards",
+        description: "This is a project rating app which allows users to post projects they have previously worked on to be rated by other developers, peers and friends alike. A user can also follow or unfollow other users. Users can also access contact info of users on their profile page and see there contact information",
+        picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1676491382/awards/awards_i9fzos.png",
+        date: "10/2020",
+        tags: ["Django", "HTML5", "Django-rest-framework", "Python3", "JavaScript", "JQquey", "docker", "kubernetes", "AWS-RDS"],
+        url: "http://35.186.214.228"
     }
     // {
     //     id: ,
