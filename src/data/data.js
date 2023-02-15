@@ -5,8 +5,8 @@ const projectData = [
         description: "Search for building products and finishes across Kenya.",
         picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1670429985/buildsoko/soko_vffhsi.png",
         date: "11/2021",
-        tags: ["Django", "MdBootstrap", "J-Query"],
-        url: "https://buildsoko-app.onrender.com/"
+        tags: ["Django", "MdBootstrap", "J-Query", "Docker", "Kubernetese"],
+        url: "http://34.117.67.249"
     },
     {
         id: 3,
