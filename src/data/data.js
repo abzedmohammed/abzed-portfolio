@@ -3,7 +3,7 @@ const projectData = [
         id: 2,
         title: "Buildsoko",
         description: "Search for building products and finishes across Kenya.",
-        picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1670429985/buildsoko/soko_vffhsi.png",
+        picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1676483431/buildsoko/soko_h6kclx.png",
         date: "11/2021",
         tags: ["Django", "MdBootstrap", "J-Query", "Docker", "Kubernetese"],
         url: "http://34.117.67.249"
@@ -43,7 +43,25 @@ const projectData = [
         date: "02/2023",
         tags: ["React", "ReduxToolkit", "Tailwind", "Rails", "Cloudinary", "Kubernetese", "awsAmplify", "awsBucket", "awsRDS"],
         url: "http://tetish-inn.s3-website-us-east-1.amazonaws.com/snacks"
+    },
+    {
+        id: 6,
+        title: "Instaclone",
+        description: "This is a social media app which requires a user to post images with captions, comment on other images or like. A user can also follow or unfollow other users and see their posts on his timeline. The user can also see his images on his profile page and their stats.",
+        picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1676481235/instaclone/instaclone_zsoujy.png",
+        date: "10/2020",
+        tags: ["Django", "HTML5", "Cloudinary", "Mdbootstrap", "Python", "Docker", "Kubernetes"],
+        url: "http://35.190.7.181"
     }
+    // {
+    //     id: ,
+    //     title: "",
+    //     description: "",
+    //     picture: "",
+    //     date: "02/2023",
+    //     tags: [],
+    //     url: ""
+    // }
 ]
 
 export default projectData;
