@@ -32,8 +32,8 @@ const projectData = [
         description: "Nairobians are suffering from lack of accommodations and hotels. Nairobnb is an app for booking a place to sleep and enjoy cutting edge technology while feeling right at home.",
         picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1671102088/nairobnb/bnb_zejrkw.png",
         date: "10/2022",
-        tags: ["React", "Redux-Toolkit", "Ruby", "Rails", "Bootstrap", "AWS-RDS"],
-        url: "https://nairobnb.vercel.app/"
+        tags: ["React", "Redux-Toolkit", "Ruby", "Rails", "Bootstrap", "AWS-RDS", "AWS-S3"],
+        url: "http://nairobnb.s3-website-us-east-1.amazonaws.com"
     },
     {
         id: 5,
@@ -41,7 +41,7 @@ const projectData = [
         description: "This is a food ordering system that allows users to order snacks and manage their orders.",
         picture: "https://res.cloudinary.com/abzedmohammed/image/upload/v1675674539/tetish-inn/tetish-inn_wv7njc.png",
         date: "02/2023",
-        tags: ["React", "Redux-Toolkit", "Tailwind", "Ruby", "Rails", "Cloudinary", "Kubernetese", "AWS-Amplify", "AWS-Bucket", "AWS-RDS"],
+        tags: ["React", "Redux-Toolkit", "Tailwind", "Ruby", "Rails", "Cloudinary", "Kubernetese", "AWS-Amplify", "AWS-S3", "AWS-RDS"],
         url: "http://tetish-inn.s3-website-us-east-1.amazonaws.com/snacks"
     },
     {
